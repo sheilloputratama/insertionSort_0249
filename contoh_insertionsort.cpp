@@ -25,11 +25,3 @@ cout << "======================" << endl; //membuat tampilan sususan data elemen
 cout << "masukkan element array" << endl;
 cout << "======================" << endl;
 
-for (int i = 0; i < n; i++) //menggunakan perulangan for untuk mentimpan data pada array
-{
-cout << "data ke-" << (i + 1) << ": "; //memasukan atau menginput nilai data n
-cin >> arr[i]; //menyimpan nilai data n kedalam array arr
-}
-}
-
-void
